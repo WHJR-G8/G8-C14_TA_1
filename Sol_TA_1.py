@@ -1,13 +1,11 @@
 import matplotlib.pyplot as plt
 
-Year=[2017,2018,2019,2020]
-Population=[18, 19, 20, 21]
-	  
-plt.bar(Year, Population)
+Roll_No = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Marks = [60, 65, 70, 50, 75, 80, 95, 85, 100, 90]
 
-plt.xlabel('Year')
-plt.ylabel('Population in lakhs')
+plt.bar(Roll_No, Marks)
 
-plt.title('Population Graph of Mumbai')
+plt.xlabel('Roll Number')
+plt.ylabel('Marks out of 100')
 
 plt.show()
