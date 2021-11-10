@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 Year=[2017,2018,2019,2020]
-Population=[19.756, 19.979, 20.185, 20.411]
+Population=[18, 19, 20, 21]
 	  
 plt.bar(Year, Population)
 
